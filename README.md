@@ -1,4 +1,4 @@
-Reproducible test repo for Webpack issue about stderr not being used to report errors.
+Reproducible test repo for [Webpack issue #10022](https://github.com/webpack/webpack/issues/10022) (stderr not being used to report errors).
 
 This repo uses a custom/dummy "build tool" that mocks what other real build tools do when they wrap Webpack.
 
