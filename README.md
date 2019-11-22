@@ -1,6 +1,6 @@
 Reproducible test repo for [Webpack issue #10022](https://github.com/webpack/webpack/issues/10022) (stderr not being used to report errors).
 
-This repo uses a custom/dummy "build tool" that mocks what other real build tools (such as Rush or webpacker from Ruby on Rails) do when they wrap Webpack.
+This repo uses a custom/dummy "build tool" that mocks what other real build tools do when they wrap Webpack. Known tools to be impacted: [Rush](https://rushjs.io), [webpacker](https://github.com/rails/webpacker).
 
 Execute `npm run build`, and notice the error message is not visible, because Webpack's messages all go to stdout whereas stderr stays empty.
 
