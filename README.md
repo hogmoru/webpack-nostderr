@@ -36,5 +36,8 @@ You may need an appropriate loader to handle this file type, currently no loader
 ```
 
 But it cannot be extracted by a build tool calling `webpack` for us, and here lies the issue.
-In this instance I'd like to see at least `Module parse failed: Unexpected token (5:0)` in stderr.
-
+In this instance I'd like to see at least this part in stderr:
+```
+ERROR in ./src/index.js 5:0
+Module parse failed: Unexpected token (5:0)
+```
